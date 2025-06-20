@@ -14,6 +14,12 @@ This project demonstrates the deployment of a secure and scalable HTML-based web
 
 ---
 
+## 📸 Project Architecture
+
+![Architecture Diagram](./your-architecture-image.png)
+
+----
+
 ## 🏗️ Architecture Overview
 
 - Created a **VPC** with Public Subnet and attached **Internet Gateway**
@@ -32,13 +38,20 @@ This project demonstrates the deployment of a secure and scalable HTML-based web
 
 ---
 
+## 📸 Screenshots
+
+> Located in the `Screenshorts` folder.
+
+- 📌 CloudWatch Metrics Graph
+- 📌 Alarm Setup
+- 📌 SNS Email Subscription Confirmation
+- 📌 Real-time Alerts in Inbox
 
 ---
 
 ## 🌐 Access
 
 Once deployed, the application is available via the **ALB DNS name**:
-
 
 ---
 
@@ -48,12 +61,6 @@ Once deployed, the application is available via the **ALB DNS name**:
 - ✅ WAF-enabled security rules (Allow, Block, CAPTCHA)
 - ✅ HTML code versioned on GitHub
 - ✅ Public access controlled by security group + WAF
-
----
-
-## 📸 Project Architecture
-
-![Architecture Diagram](./your-architecture-image.png)
 
 ---
 
