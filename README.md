@@ -42,11 +42,11 @@ This project demonstrates the deployment of a secure and scalable HTML-based web
 
 > Located in the `Screenshorts` folder.
 
-- 📌 CloudWatch Metrics Graph
-- 📌 Alarm Setup
-- 📌 SNS Email Subscription Confirmation
-- 📌 Real-time Alerts in Inbox
-
+- 📌 404 Forbiden
+- 📌 Asg
+- 📌 AWS Waf
+- 📌 Load balancer
+- 📌 capta rule
 ---
 
 ## 🌐 Access
