@@ -40,8 +40,7 @@ This project demonstrates the deployment of a secure and scalable HTML-based web
 
 ## 📸 Screenshots
 
-> Located in the `Screenshorts` folder.Screenshorts
-> ![Screenshorts](screenshorts)
+> Located in the `Screenshorts` folder.
 
 - 📌 404 Forbiden
 - 📌 Asg
