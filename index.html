@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Secure Web Application | AWS Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f2f4f8;
+      color: #333;
+    }
+    nav {
+      background: #004b8d;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 500;
+    }
+    header {
+      background: #005fbb;
+      padding: 2.5rem 1rem;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      margin-bottom: 0.5rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #004b8d;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1rem;
+      margin-right: 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .btn-demo { background: #27ae60; }
+    .btn-github { background: #333; }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 2rem;
+    }
+    .social-links a {
+      margin: 0 0.5rem;
+      color: #004b8d;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div><strong>Omkar Rawool</strong></div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#tech">Tech Stack</a>
+      <a href="#demo">Demo</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Secure Web Application</h1>
+    <p>Hosted on AWS with WAF, ALB, Auto Scaling, CloudWatch, and EC2</p>
+  </header>
+
+  <div class="container">
+    <div id="about" class="section">
+      <h2>📘 About the Project</h2>
+      <p>This project demonstrates a secure and scalable web application hosted on AWS. It includes EC2 instances behind an Application Load Balancer, protected by AWS WAF, monitored using CloudWatch, and scaled automatically using Auto Scaling Group (ASG).</p>
+    </div>
+
+    <div id="tech" class="section">
+      <h2>🛠️ Technologies Used</h2>
+      <ul>
+        <li>AWS EC2, ALB, ASG, VPC, S3, IAM</li>
+        <li>AWS WAF for Layer 7 protection</li>
+        <li>Amazon CloudWatch for logging and metrics</li>
+        <li>GitHub for code versioning</li>
+        <li>HTML, CSS for front-end</li>
+      </ul>
+    </div>
+
+    <div id="demo" class="section">
+      <h2>🚀 Project Links</h2>
+      <a href="https://www.omkarcloudengineer.in/" class="btn btn-demo" target="_blank">🔗 Live Demo</a>
+      <a href="https://github.com/Omkar7824" class="btn btn-github" target="_blank">💻 GitHub Repo</a>
+    </div>
+
+    <div id="contact" class="section">
+      <h2>📩 Contact</h2>
+      <p>If you're a recruiter or collaborator, feel free to connect!</p>
+      <p>Email: <a href="mailto:omkarrawool225.com">omkarrawool225.com</a></p>
+      <div class="social-links">
+        <a href="http://www.linkedin.com/in/omkar-cloud-engineer" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/Omkar7824" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Omkar Rawool | AWS Secure Web Application Project
+  </footer>
+
+</body>
+</html>
