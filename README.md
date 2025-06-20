@@ -16,7 +16,7 @@ This project demonstrates the deployment of a secure and scalable HTML-based web
 
 ## 📸 Project Architecture
 
-![Architecture Diagram](./your-architecture-image.png)
+![Architecture Diagram](Architecture/Architecture.png)
 
 ----
 
